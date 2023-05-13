@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -39,6 +40,9 @@
           <?php require "registration_form.php"; ?>
         </div>
       </div>
-    </div>
+    </div>    
+    <script src="../resources/gentelella/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+   <script src="../resources/gentelella/vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
