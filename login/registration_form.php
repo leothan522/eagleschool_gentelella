@@ -1,5 +1,5 @@
 <section class="login_content">
-  <form action="procesar.php" method="post">
+  <form action="register.php" method="post">
     <h1>Crear cuenta</h1>
     <?php if(isset($_SESSION['mensaje'])) { ?>
     <div class="alert alert-info alert-dismissible fade show" role="alert">

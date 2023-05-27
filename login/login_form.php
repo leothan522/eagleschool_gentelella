@@ -1,5 +1,5 @@
 <section class="login_content">
-  <form>
+  <form action="login.php" method="post" >
     <h1>Inicio de sesión</h1>
     <?php if (isset($_SESSION['mensaje_login'])) { ?>
       <div class="alert alert-info alert-dismissible fade show" role="alert">
@@ -16,13 +16,13 @@
       </div>
     <?php } ?>
     <div>
-      <input type="text" class="form-control" placeholder="Correo electrónico" required="" />
+      <input type="email" name="email" class="form-control" placeholder="Correo electrónico" required="" />
     </div>
     <div>
-      <input type="password" class="form-control" placeholder="Contraseña" required="" />
+      <input type="password" name="password" class="form-control" placeholder="Contraseña" required="" />
     </div>
     <div>
-      <a class="btn btn-default submit" href="index.html">Acceso</a>
+      <button type="submit" class="btn btn-default submit" href="index.html">Acceso</button>
       <a class="reset_pass" href="#">Perdiste tu contraseña?</a>
     </div>
 

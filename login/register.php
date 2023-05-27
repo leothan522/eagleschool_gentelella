@@ -38,7 +38,7 @@ if($existe){
 
     if($guardar)
     {
-     $mensaje = "Datos Guardados";
+     $mensaje = "Usuario registrado correctamente";
      $ruta = "/login/#signin";
      $_SESSION['mensaje_login'] = $mensaje;
     }else{
